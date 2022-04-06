@@ -1,5 +1,6 @@
 package and5.abrar.roomdatabase
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -21,7 +22,7 @@ class AddStudentActvty : AppCompatActivity() {
 
             runOnUiThread{
                 if (hasil != 0.toLong()){
-                    Toast.makeText(this@AddStudentActvty,"Succes", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this@AddStudentActvty,"Success", Toast.LENGTH_LONG).show()
                 }else{
                     Toast.makeText(this@AddStudentActvty,"Failed", Toast.LENGTH_LONG).show()
                 }
