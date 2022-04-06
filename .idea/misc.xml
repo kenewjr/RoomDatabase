@@ -4,8 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/RoomDatabase/app/src/main/res/layout/activity_add_student_actvty.xml" value="0.11865942028985507" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/RoomDatabase/app/src/main/res/layout/activity_edit_student_actvty.xml" value="0.14130434782608695" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/RoomDatabase/app/src/main/res/layout/activity_main.xml" value="0.4" />
-        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/RoomDatabase/app/src/main/res/layout/item_adapter_student.xml" value="0.10822401614530777" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/RoomDatabase/app/src/main/res/layout/item_adapter_student.xml" value="0.152" />
       </map>
     </option>
   </component>

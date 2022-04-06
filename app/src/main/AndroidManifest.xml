@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RoomDatabase">
         <activity
+            android:name=".EditStudentActvty"
+            android:exported="false" />
+        <activity
             android:name=".AddStudentActvty"
             android:exported="false" />
         <activity

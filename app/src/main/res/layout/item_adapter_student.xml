@@ -26,7 +26,25 @@
             android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_baseline_delete_forever_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/edit"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/delete"
+                android:src="@drawable/ic_baseline_edit_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
 
     </LinearLayout>
+
 
 </androidx.cardview.widget.CardView>

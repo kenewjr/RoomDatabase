@@ -23,9 +23,11 @@ class AddStudentActvty : AppCompatActivity() {
             runOnUiThread{
                 if (hasil != 0.toLong()){
                     Toast.makeText(this@AddStudentActvty,"Success", Toast.LENGTH_LONG).show()
+
                 }else{
                     Toast.makeText(this@AddStudentActvty,"Failed", Toast.LENGTH_LONG).show()
                 }
+                finish()
 
             }
         }

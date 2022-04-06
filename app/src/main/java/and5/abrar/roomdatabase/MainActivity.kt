@@ -33,4 +33,14 @@ class MainActivity : AppCompatActivity() {
         }
     }
     }
+
+    override fun onResume() {
+        super.onResume()
+        getDataStudent()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        DbStudent.destroyInstance()
+    }
 }

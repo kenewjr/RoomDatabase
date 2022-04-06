@@ -1,8 +1,6 @@
 package and5.abrar.roomdatabase
 
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.Query
+import androidx.room.*
 
 @Dao
 interface StudentDao {
@@ -11,4 +9,10 @@ interface StudentDao {
 
     @Query("SELECT * FROM Student")
     fun getAllStudent(): List<Student>
+
+    @Delete
+    fun deleteStudent(student: Student):Int
+
+    @Update
+    fun updateStudent(student: Student):Int
 }
